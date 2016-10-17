@@ -1,5 +1,5 @@
 import game_framework
-import main_state
+import Metal_Main
 
 from pico2d import *
 
@@ -23,8 +23,8 @@ def handle_events():
         else:
             if (event.type, event.key) == (SDL_KEYDOWN, SDLK_ESCAPE):
                 game_framework.quit()
-            elif (event.type, event.key) == (SDL_KEYDOWN, SDLK_SPACE):
-                 game_framework.change_state(main_state)
+            elif (event.type, event.key) == (SDL_KEYDOWN, SDLK_RETURN):
+                 game_framework.change_state(Metal_Main)
 
 def draw():
     clear_canvas()
@@ -34,16 +34,8 @@ def draw():
 def update():
     pass
 
-
 def pause():
     pass
 
-
 def resume():
     pass
-
-
-
-
-
-
