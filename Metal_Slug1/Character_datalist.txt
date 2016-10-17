@@ -1,0 +1,16 @@
+{
+"x":100,
+"y":90,
+
+"move_frame":0,
+"jump_frame":0,
+"act_frame":0,
+"shot_frame":0, 
+
+"direction":"right",
+
+"move_state":"idle",
+"jump_state":"ready",
+"act_state":"ready",
+"shot_state":"ready"
+}
